@@ -1,6 +1,5 @@
 'use client'
 import { useState } from "react";
-import "chart.js/auto";
 import { slopeDeflection } from "./beamAnalysis";
 import DynamicBeamVisualization from "./DynamicBeamVisualisation";
 
