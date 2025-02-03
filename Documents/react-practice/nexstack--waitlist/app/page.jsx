@@ -35,12 +35,12 @@ const SignUpPage = () => {
           alt="We're Cooking"
           className="mt-7 md:mt-16 lg:mt-20"
         />
-        <h2 className="text-3xl font-bold text-center mt-3 p-4 md:text-4xl lg:text-5xl">
+        <h2 className="text-3xl font-bold text-center mt-3 p-4 md:text-4xl lg:text-5xl lg:mx-32 lg:leading-[3rem] ">
           Join the waitlist to get notified when we launch!
         </h2>
-        <div className=" flex justify-around items-center  lg:mb-10 md:mb-8 md:mt-3 lg:mt-5 ">
+        <div className=" flex justify-around items-center lg:mb-5 md:mb-3 md:mt-3 lg:mt-3 lg:mx-64 ">
           <Image src={left} alt="Left Image" className="w-[19px]" />
-          <p className="mx-2 text-gray-500  text-base font-medium text-center md:mx-10 lg:mx-28">
+          <p className="mx-2 text-gray-500  text-base font-medium text-center md:mx-10 ">
             We’re building something very amazing and we can’t wait to let you
             see it first.
           </p>
@@ -49,11 +49,11 @@ const SignUpPage = () => {
         <input
           type="email"
           placeholder="Input your email"
-          className="mt-8 text-center border rounded border-[#DA004C] p-2 md:px-6 lg:px-[58px]"
+          className="mt-8 text-center border rounded border-[#DA004C] p-2 md:px-6 lg:px-[58px] lg:mt-3"
         />
         <button
           type="submit"
-          className="mt-6 text-white text-center bg-[#DA004C] rounded py-2 px-[60px] md:px-20 lg:px-28"
+          className="mt-6 text-white text-center bg-[#DA004C] rounded py-2 px-[50px] md:px-20 lg:px-24"
           onClick={openModal}
         >
           Join the waitlist
@@ -83,31 +83,3 @@ const SignUpPage = () => {
 };
 
 export default SignUpPage;
-
-{
-  /* <div className=" flex justify-between items-center">
-      <Image src={left} alt="Left Image" className="w-[19px] mb-36" />
-      <p class="mx-2 text-gray-500  text-base font-medium text-center mb-52  ">
-        We’re building something very amazing and we can’t wait to let you
-        see it first.
-      </p>
-      <Image src={right} alt="Right Image" className="w-[19px] mb-96 " />
-    </div> */
-}
-
-{
-  /*     
-  <div className="flex flex-col items-center justify-center h-full">
-    <Image src={Cooking} alt="....." className="mt-16" />
-    <h2 className="mt-8 text-6xl font-extrabold text-center text-black w-[70%]">
-      Join the waitlist to get notified when we launch!
-    </h2>
-    <div className=" flex justify-between items-center gap-24">
-      <Image src={left} alt="...." />
-      <p className=" font-medium text-2xl mt-5 text-center text-black w-[60%]">
-        We’re building something very amazing and we can’t wait to let you
-        see it first.
-      </p>
-      <Image src={right} alt="...." />
-  </div> */
-}
